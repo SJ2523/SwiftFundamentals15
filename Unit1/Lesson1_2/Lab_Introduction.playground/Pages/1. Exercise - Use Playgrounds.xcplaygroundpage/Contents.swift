@@ -10,13 +10,18 @@ print("How to use playgrounds to make writing Swift fun and simple")
 /*:
  Now print your own phrases to the console. Pick one of your favorite songs. Use your knowledge of the `print` function to display the song title and artist.
  */
-
+print("Favorite Song Titled: ")
+print("Waymaker")
+print("Artist: ")
+print("Sinache")
 
 /*:
  Use multiple `print` functions to write out some of the lyrics to the song.
  */
-
-
+print("YOU are here moving in our midst")
+print(" I worship YOU ")
+print("I worship YOU...")
+print(YOU are, Waymaker, Miracle Worker, Promise Keeper, Light in the Darkness, My GOD, that is who YOU are")
 
 /*:
 
