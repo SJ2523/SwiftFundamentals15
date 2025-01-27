@@ -63,9 +63,14 @@ print(isTrue)
 /*:
  Create two variables, one with a value of 0, the other with a value of 0.0. Try to assign the second variable to the first, and you will receive an error. Add the necessary type annotation that will allow the second variable to be assigned to the first.
  */
+var intVar = 0
+var doubleVar = 0.0
 
+intVar = Int(doubleVar)
+print(intVar)
 
 /*:
  Create a variable integer with a value of 1,000,000,000, ensuring that you format it so it is more readable (i.e. it's hard to read 1000000000, so make it easier to read).
  */
-
+var LgVar = 1_000_000_000.0
+print(LgVar)
