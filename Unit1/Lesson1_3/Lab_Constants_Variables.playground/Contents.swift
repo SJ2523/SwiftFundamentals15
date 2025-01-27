@@ -54,7 +54,11 @@ print(MDouble)
 /*:
  Create a boolean variable and set it to `true`. Print the variable, then assign it a value of `false`, and print it again.
  */
+var isTrue = true
+print(isTrue)
 
+isTrue = false
+print(isTrue)
 
 /*:
  Create two variables, one with a value of 0, the other with a value of 0.0. Try to assign the second variable to the first, and you will receive an error. Add the necessary type annotation that will allow the second variable to be assigned to the first.
