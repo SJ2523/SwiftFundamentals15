@@ -38,6 +38,17 @@ print(age)
 /*:
  Create a double variable with a value of 1.1. Update it to 2.2, 3.3, and 4.4, printing out the value after each assignment (again by referencing the variable you created).
  */
+var MDouble: Double =1.1
+print(MDouble)
+
+MDouble = 2.2
+print(MDouble)
+
+MDouble = 3.3
+print(MDouble)
+
+MDouble = 4.4
+print(MDouble)
 
 
 /*:
