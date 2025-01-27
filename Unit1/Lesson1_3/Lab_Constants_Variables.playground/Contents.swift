@@ -19,11 +19,16 @@ print("constants are immutable")
 /*:
  Declare a variable `age` and set it to your own age. Print `age` to the console.
  */
-
+var age = 48
+print(age)
 
 /*:
  Now pretend you just had a birthday, and update the `age` variable accordingly. Print `age` to the console.
  */
+
+var age = 48
+age+=1
+print(age)
 
 /*:
  
