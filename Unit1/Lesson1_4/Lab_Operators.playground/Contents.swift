@@ -62,14 +62,27 @@ print("The cirecumference of the circle is \(circumference)")
 /*:
  Declare a variable whose value begins at 10. Using addition, update the value to 15 using the compound assignment operator. Using multiplication, update the value to 30 using compound assignment. Print out the variable's value after each assignment.
  */
+var value = 10
+
+value += 5
+value *= 2
+
+print(value)
 
 
 /*:
  Create an integer constant with a value of 10, and a double constant with a value of 3.2. Cast the `Double` to an `Int`, then multiply it by the integer constant and print out the value.
  */
+let intConstant = 10
+let DbConstant = 3.2
+let CstDble= int(DbConstant)
 
+let result = intConstant * CstDble
+
+print(result)
 
 /*:
  Create an integer constant. Its value should be equal to the remainder of 12 divided by 5. Do this using the modulus operator.
  */
-
+let Remain = 12 % 5
+print(Remain)
