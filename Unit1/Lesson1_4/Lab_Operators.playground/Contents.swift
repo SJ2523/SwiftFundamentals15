@@ -40,15 +40,23 @@ print("The result of 10 divided by 3 is \(divisionResult)")
 /*:
  Create a constant, `moreAccurateResult`, that is also the result of 10 divided by 3, but includes the repeating decimal. Print this value.
  */
-
+let moreAccurateResult = 10.0 / 3.0
+print(string(format: "The resultof 10 divided by 3 is %.15f" moreAccurateResult))
 
 /*:
  Given the value pi (3.1415927), create a `radius` constant with a value of 5.0, then calculate the diameter and circumference of the circle using the following equations, and print the results:
+let pi= 3.1415927 
+let radius = 5.0
+let diameter = 2 * radius
+let circumference = 2 * pi * radius
 
- *diameter = 2 * radius*
+*diameter = 2 * radius*
  
  *circumference = 2 * pi * radius.*
  */
+
+print("The diameter of the circle is \(diameter)")
+print("The cirecumference of the circle is \(circumference)")
 
 
 /*:
