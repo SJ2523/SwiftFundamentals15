@@ -11,22 +11,31 @@
 /*:
  Create a `perimeter` constant whose value equals `width` plus `width` plus `height` plus `height`, then print out the result.
  */
+let width = 5
+let height = 7
+let perimeter = width + width + height + height
+print("the perimeter is \(perimeter)")
 
 
 /*:
  Print out what you think 10 + 2 * 5 evaluates to. Then print out the actual expression (i.e. `print(10 + 2 * 5)`)
  */
+let result = 10+2*5
+print("10 + 2 * 5")
+print("equals")
+print(result)
 
 
 /*:
  In a separate statement, add in the necessary parentheses so that addition takes place before multiplication.
  */
-
+let result = (10 + 2 ) * 5
 
 /*:
  Create a constant, `divisionResult` that is the result of 10 divided by 3, and print the value.
  */
-
+let divisionResult = Double(10) / Double(3)
+print("The result of 10 divided by 3 is \(divisionResult)")
 
 /*:
  Create a constant, `moreAccurateResult`, that is also the result of 10 divided by 3, but includes the repeating decimal. Print this value.
