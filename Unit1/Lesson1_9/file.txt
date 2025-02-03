@@ -1,1 +1,3 @@
-{}
+@IBAction func changeTitle(_sender: UIButton) {
+     mainLabel.text = This app rocks!"
+}
