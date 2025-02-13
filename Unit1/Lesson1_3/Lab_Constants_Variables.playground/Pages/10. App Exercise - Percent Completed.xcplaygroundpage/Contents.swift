@@ -11,6 +11,7 @@ var percentCompleted: Double = 0
 //:  Imagine that partway through the day a user has taken 3,467 steps out of the 10,000 step goal. This means he/she is 34.67% of the way to his/her goal. Assign 34.67 to `percentCompleted`. Does the code compile? Go back and explicity assign a type to `percentCompleted` that will allow the code to compile.
 percentCompleted = 34.67
 
+
 /*:
  _Copyright © 2023 Apple Inc._
 
