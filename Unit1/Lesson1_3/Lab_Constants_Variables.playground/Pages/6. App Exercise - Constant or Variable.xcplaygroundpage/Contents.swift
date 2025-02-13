@@ -11,6 +11,16 @@
 - Goal number of steps: The user's goal for number of steps to take each day
 - Average heart rate: The user's average heart rate over the last 24 hours
  */
+var UserNm = "SJ"
+print("I chose var because more than one person will use the app, so the name will change")
+var UserAge = 48
+  print ("Different users will have different ages.")
+var NumofSteps = 6500
+     print("The number of steps will vary.")
+var NumofStepsGoal = 15000
+     print("The number of steps goals will differ from person to person.")
+var AvgHrtRt = 76
+     print("The average heart rate will differ from person to person.")
 
 
 /*:
