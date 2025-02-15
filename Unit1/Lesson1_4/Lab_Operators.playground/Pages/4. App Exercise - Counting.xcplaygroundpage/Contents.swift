@@ -5,6 +5,8 @@
  
  The most basic feature of your fitness tracking app is counting steps. Create a variable `steps` and set it equal to 0. Then increment its value by 1 to simulate a user taking a step.
  */
+var steps = 0
+steps += 1
 
 
 /*:
@@ -12,6 +14,9 @@
  
  You decide, however, to display the distance in meters. 1 meter is approximately equal to 3 feet. Use a compound assignment operator to convert `distance` to meters. Print the result.
  */
+var distance: Double = 50
+distance *= 3
+print(distance)
 
 
 /*:

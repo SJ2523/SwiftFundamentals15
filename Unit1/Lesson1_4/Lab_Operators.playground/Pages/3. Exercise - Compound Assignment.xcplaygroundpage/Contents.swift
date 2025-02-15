@@ -3,6 +3,10 @@
  
  Declare a variable whose value begins at 10. Using addition, update the value to 15 using the compound assignment operator. Using multiplication, update the value to 30 using compound assignment. Print out the variable's value after each assignment.
  */
+var Multi: Int = 10
+Multi = 15
+Multi *= 2
+print(Multi)
 
 
 /*:
@@ -16,6 +20,12 @@
  
  Print the balance of your penny bank after each step.
  */
+var pennyBank: Double = 0
+pennyBank += 10
+pennyBank += 20
+pennyBank -= 15
+pennyBank *= 3
+pennyBank -= 3
 
 
 /*:
