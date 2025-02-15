@@ -9,11 +9,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    @IBOutlet var mainlabel: UILabel!
+    
+        override func  viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+        
+    @IBAction func changeTitle (sender: Any) {
+        mainlabel.text = "This app rocks!"
+    }
 
 }
 
