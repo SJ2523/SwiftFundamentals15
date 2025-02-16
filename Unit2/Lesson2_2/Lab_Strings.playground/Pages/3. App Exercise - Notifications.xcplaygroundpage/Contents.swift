@@ -7,7 +7,11 @@
  
  Create `firstName` and `lastName` constants and assign them string literals representing a user's first name and last name, respectively. Create a `fullName` constant that uses string concatenation to combine `firstName` and `lastName`. Print the value of `fullName`.
  */
+let firstName: String = "Narrow"
+let lastName: String = "Road"
+let fullName = firstName + " " + lastName
 
+print(fullName)
 
 /*:
  Occasionally users of your fitness tracking app will beat previous goals or records. You may want to notify them when this happens for encouragement purposes. Create a new constant `congratulations` and assign it a string literal that uses string interpolation to create the following string:
@@ -19,6 +23,9 @@
 let previousBest = 14392
 let newBest = 15125
 
+let congratulations: String = ""
+
+print("congratulations,\(fullName)! You beat your previous high score of \(previousBest) steps by walking \(newBest) steps yesterday!")
 /*:
 [Previous](@previous)  |  page 3 of 5  |  [Next: Exercise - String Equality and Comparison](@next)
  */
