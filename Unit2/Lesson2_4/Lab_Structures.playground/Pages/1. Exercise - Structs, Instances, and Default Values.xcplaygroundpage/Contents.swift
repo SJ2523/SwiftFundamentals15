@@ -3,7 +3,10 @@
  
  Imagine you are creating an app that will monitor location. Create a `GPS` struct with two variable properties, `latitude` and `longitude`, both with default values of 0.0.
  */
-
+struct GPS {
+    var latitude: Double
+    var longitude: Double
+}
 
 //:  Create a variable instance of `GPS` called `somePlace`. It should be initialized without supplying any arguments. Print out the latitude and longitude of `somePlace`, which should be 0.0 for both.
 
