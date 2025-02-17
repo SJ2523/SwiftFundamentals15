@@ -17,9 +17,20 @@ struct RunningWorkout {
 struct Steps {
     var steps: Int
     var goal: Int
-    
+ 
+    func takeStep(){
+        steps +=
+        
+    }
+    init(steps: Int = 1000, goal: Int = 16000) {
+        self.steps = steps
+        self.goal = goal
+    }
 }
 
+print("Steps: \(Steps.steps)")
+
+let takeSteps =Steps(steps: 5000, goal: 16000)
 
 /*:
 [Previous](@previous)  |  page 6 of 10  |  [Next: Exercise - Computed Properties and Property Observers](@next)
