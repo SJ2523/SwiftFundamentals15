@@ -29,6 +29,7 @@ struct Steps {
     }
 }
 
+let takeStep = Steps(steps: 9999, goal: 10000)
 
 /*:
 [Previous](@previous)  |  page 8 of 10  |  [Next: Exercise - Type Properties and Methods](@next)

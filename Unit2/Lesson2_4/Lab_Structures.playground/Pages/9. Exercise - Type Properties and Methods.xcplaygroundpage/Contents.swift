@@ -8,7 +8,15 @@ struct User {
     var userName: String
     var email: String
     var age: Int
+    
 }
+
+let SJ = User (userName: "Shirley-Jo", email:"shirleyleekallo@ymail.com", age: 48)
+
+
+
+print("Name: \(SJ.userName), Email: \(SJ.email), Age: \(SJ.age)")
+
 
 
 /*:
@@ -16,8 +24,15 @@ struct User {
  
  Below, call the `logIn(user:)` method and pass in a different `User` instance than what you assigned to currentUser above. Observe the printout in the console.
  */
+struct User{
+    var name: String
+    var email: String
+    var age: Int
+    
+    static var currentuser: User?
+}
 
-
+let 
 /*:
 [Previous](@previous)  |  page 9 of 10  |  [Next: App Exercise - Type Properties and Methods](@next)
  */

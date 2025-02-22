@@ -20,19 +20,20 @@ struct Height {
     
     var heightInCentimeters: Double
     
-    var didSet = Double
+    var didSet: Double
     
     
     init(heightInInches: Double) {
         self.heightInInches = heightInInches
         self.heightInCentimeters = heightInInches*2.54
-        self.
+        self.didSet = 0.0
     }
     
     
     init(heightInCentimeters: Double) {
         self.heightInCentimeters = heightInCentimeters
         self.heightInInches = heightInCentimeters/2.54
+        self.didSet = 0.0
     }
 }
 
