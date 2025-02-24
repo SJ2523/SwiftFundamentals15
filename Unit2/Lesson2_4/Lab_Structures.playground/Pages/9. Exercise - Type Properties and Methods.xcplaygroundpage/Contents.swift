@@ -29,10 +29,9 @@ print("Name: \(SJ.userName), Email: \(SJ.email), Age: \(SJ.age)")
  
  Below, call the `logIn(user:)` method and pass in a different `User` instance than what you assigned to currentUser above. Observe the printout in the console.
  */
-struct logIn: User{
-    
-}
+let user101  = User(userName: "CyberBob", email: "CyberB101", age: 48)
 
+print(user101.userName)
 /*:
 [Previous](@previous)  |  page 9 of 10  |  [Next: App Exercise - Type Properties and Methods](@next)
  */
