@@ -14,9 +14,19 @@ for (index, letter) in alphabet.enumerated(){
 //:  Create a `[String: String]` dictionary where the keys are names of states and the values are their capitals. Include at least three key/value pairs in your collection, with one of them being your home state. Now loop through this dictionary again, printing out the keys and values in a sentence, but add an if statement that will check if the current iteration is your home state. If it is, print("I found my home!") and break out of the loop.
 var statesAndCapitals: [String: String] = [
     "California": "Sacramento",
-    "Texas "
+    "Texas" : "Austing",
+    "New York": "New York"
 ]
 
+let homeState = "Texas"
+
+for (state, capital) in statesAndCapitals {
+    if state == homeState{
+        print("I found my home!")
+    } else {
+        print ("\(state)'s capital is \(capital).")
+    }
+}
 /*:
 [Previous](@previous)  |  page 5 of 6  |  [Next: App Exercise - Finding Movements](@next)
  */

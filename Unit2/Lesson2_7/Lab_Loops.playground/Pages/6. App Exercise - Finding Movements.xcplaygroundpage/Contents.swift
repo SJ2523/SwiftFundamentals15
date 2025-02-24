@@ -11,8 +11,23 @@
 let lowHR = 110
 let highHR = 125
 var movementHeartRates: [String: Int] = ["Walking": 85, "Running": 120, "Swimming": 130, "Cycling": 128, "Skiing": 114, "Climbing": 129]
-
-
+ 
+print("Enter your desired low heart rate")
+if let lowHRInput = readLine(), let lowHR = Int(lowHRInput) {
+    print("Enter your desired high heart rate: ")
+    
+    if let highHRinput = readLine(), let highHR = Int(highHRinput) {
+        for (movement, heartRate) in movementHeartRates {
+            
+            if heartRate >= lowHR && heartRate <= highHR{
+                print("You could go to \(movement).")
+            }else{
+                print("Invalid high heart rate input.")
+            }else{
+                print("Invalid low heart rate input.")
+            }
+    }
+}
 /*:
  _Copyright © 2023 Apple Inc._
 
