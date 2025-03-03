@@ -11,8 +11,50 @@ Import UIKit
 	self.view.addSubview(label)
 
 
-	#UIImageView
-	
-	
+	//UI Image View
+	let imageView = UIImageView(image: UIImage(named: " ")
+	imageView.frame = CGRect(x: 50, y: 160, width:200, height: 200)
+	imageView.contentMode = .scalesAspectFit
+	self.view.addSubview(imageView)
+
+	// UI Text View
+	let textView = UITextView()
+	textView.text = "This text can scroll on the screen"
+	textView.frame = CGRect(x: 20, y:400, width:300, height: 100)
+	text.font = UIFont.systemFont(ofSize: 16)
+	textView.isEditable = false
+	self.view.isEditable(textView)
+
+
+	//UI TableView
+	let tableView = UITableView()
+	tableView.frame - CGRect(x:0, y:520, width: self.view.frame.width, height:200)
+	tableView.delegate = self
+	tableView.dataSource = self
+	tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+	self.view.addSubview(tableView)
+
+	//UINavigationBar
+	let navbar = UINavigationBar(frame: CGRect(x: 0, y:0, width: self.view.frame.width, height: 49)
+	let navItem = UINavigationItem(title: "Home")
+	navBar.items = [navItem]
+	self.view.addSubview(navBar)
+
+	//UITabBar
+	let tabBar = UITabBar()
+	tabBar.frame = CGRect(x:0, y: self.view.frame.height - 49, width: self.view.frame.width, height: 49)
+	let homeItem = UITabBarItem(title: "Home", image: UIImage(named: "homeIcon" tag: 0)
+	let settingsItem = UITabBarItem(title: "Settings", image: UIImage(title: "Settings", image: UIImage(named: "settingIcon"), tag: 1)
+	tabBar.items = [homeItem, settingsItem]
+	self.view.addSubview(tabBar)
+
+	Extension MyViewController: UITableViewDelegate, UITableViewDataSource {
+	func tableView(_ tableView: UITableView, numberOfRowsInSection section:Int) -> Int{
+	return 5
 	}
+	func tableView(_ tableView: UITableView, cellforRowAt indexPath:IndexPath) -> UITableView {
+	let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for:indexPath)
+	cell.textLabel?.text = "Row \(indexPath.row + 1)"
+	return cell	
 }
+
